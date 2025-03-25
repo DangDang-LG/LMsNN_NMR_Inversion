@@ -24,6 +24,4 @@ Run the 'main.py' will finish generated numerical synthesis data, model training
 
 Data available
 ------------------------------------------------------
-The data file contains the numerical synthesis data, core analysis data and well logging data used in the study.
-
-Also the data of figures in the article are included.
+The data file contains the numerical synthesis data used in the study. Also the data of figures in the article are included.
