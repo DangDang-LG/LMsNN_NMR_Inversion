@@ -1,31 +1,6 @@
 import numpy as np
 import math
 
-"""
-Model 1
-ratio = [0.6, 0.4]
-SNR = 10
-random_seed = 256
-SNR = 20
-random_seed = 75
-SNR = 40
-random_seed = 75
-SNR = 80
-random_seed = 65
-"""
-
-"""
-Model 2
-ratio = [0.4, 0.6]
-SNR = 10
-random_seed = 65
-SNR = 20
-random_seed = 75
-SNR = 40
-random_seed = 75
-SNR = 80
-random_seed = 75
-"""
 
 # Number of T2 points
 T2_number = 128
@@ -35,15 +10,15 @@ echo_space = 0.2
 # signal-to-noise ratio
 SNR = 10
 # ratio of components
-ratio = [0.4, 0.6]
+ratio = [0.6, 0.4]
 T2_min = 0.1
 T2_max = 10000
 T2 = np.logspace(math.log10(T2_min), math.log10(T2_max), T2_number)
 
-position_list = [10, 150]
-sigma = [0.06, 0.06]
+position_list = [5, 100]
+sigma = [0.05, 0.05]
 
-random_seed = 256
+random_seed = 76
 BATCH_SIZE = 1
 EPOCHS = 12000
 
@@ -62,4 +37,6 @@ save_echo_noise_path = './forward_data/'
 save_T2_AMPLITUDE_path = './forward_data/'
 
 true_data_path = ''
+
+
 
