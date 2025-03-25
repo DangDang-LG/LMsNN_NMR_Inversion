@@ -16,7 +16,7 @@ Here is a list of libraries you might need to install to execute the code:
 
 Computer Device
 ------------------------------------------------------
-All programs run under the server with Macbook pro M1.
+All programs run under the server with Macbook pro M1 and with a 2.90 GHz Intel Core i7-10700 processor and an NVIDIA GeForce RTX 3060 GPU.
 
 Run
 ------------------------------------------------------
