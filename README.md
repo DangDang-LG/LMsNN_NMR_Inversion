@@ -9,7 +9,7 @@ Requirements
 ------------------------------------------------------
 Here is a list of libraries you might need to install to execute the code:
 * python (=3.10)
-* tensorflow-macos (=2.12)
+* tensorflow-macos (=2.12) / tensorflow-gpu (=2.7.0)
 * numpy (=1.24.3)
 * pandas (=2.0.1)
 * matplotlib (=3.7.1)
